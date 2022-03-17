@@ -201,7 +201,7 @@
 .third {
   position: relative;
   width: 400px;
-  height: 713px;
+  height: 841px;
 
   background: linear-gradient(
     165.41deg,
@@ -263,7 +263,6 @@
   position: relative;
   width: 100%px;
   height: 440px;
-  margin-top: 127px;
 
   background: #dce9e9;
 }
@@ -484,11 +483,11 @@
 }
 
 .fifth__img {
-  margin: 11px;
+  margin: 8px;
 }
 
 .fifth__img__second {
-  margin-left: 11px;
+  margin-left: 9px;
   padding-bottom: 11px;
 }
 
