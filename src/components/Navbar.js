@@ -25,6 +25,8 @@ function Navbar() {
       {/* 1st-section */}
 
       <div className="starter">
+        {/* starter is composed of first and second section */}
+
         <div className="first">
           <div className="first__about">About Diana</div>
 
