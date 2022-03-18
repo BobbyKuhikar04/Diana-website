@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Navbar() {
+function Website() {
   return (
     <>
       {/* navbar section */}
@@ -328,4 +328,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Website;
