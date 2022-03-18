@@ -3,11 +3,14 @@ import React, { useState } from "react";
 function Navbar() {
   return (
     <>
+      {/* navbar section */}
+
       <nav className="Navbar">
         <div className="navbar-container">
           <span className="nav-icon">
             <img src="./icons/menuhamburger.png" alt="menu" />
           </span>
+
           <span className="nav-right-icons">
             <span>
               <img src="./icons/shopping-cart.png" alt="cart" />
@@ -20,6 +23,7 @@ function Navbar() {
       </nav>
 
       {/* 1st-section */}
+
       <div className="starter">
         <div className="first">
           <div className="first__about">About Diana</div>
@@ -39,6 +43,7 @@ function Navbar() {
         <hr className="hrline" />
 
         {/* <!-- second section --> */}
+
         <div className="second">
           <div className="second__philosophy">Our Philosophy</div>
 
@@ -86,7 +91,9 @@ function Navbar() {
           </div>
         </div>
       </div>
+
       {/* <!-- third-section --> */}
+
       <div className="third">
         <div className="third__ques">What makes us different?</div>
 
@@ -119,6 +126,7 @@ function Navbar() {
           <p>We’re just solving real problems for real people here.</p>
         </div>
       </div>
+
       {/* <!-- fourth-section --> */}
 
       <div className="fourth">
@@ -141,7 +149,9 @@ function Navbar() {
         </div>
         <div className="fourth__second__slogan">#NoNasties, we promise!</div>
       </div>
+
       {/* <!-- fifth-section --> */}
+
       <div className="fifth">
         <div className="fifth__head">Track your mood</div>
 
