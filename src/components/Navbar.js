@@ -230,7 +230,7 @@ function Navbar() {
             <span className="seventh__btn__txt">Get a consultation</span>
           </button>
         </div>
-        {/* <img src="./icons/doctor.png" alt="doctor" /> */}
+
         <div className="seventh__img"></div>
       </div>
 
