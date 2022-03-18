@@ -1,10 +1,12 @@
 * {
   margin: 0;
 }
+
 @font-face {
   font-family: Reptile;
   src: url(../public/Reptile-Medium.otf);
 }
+
 .Navbar {
   box-shadow: 0px 4px 14px 0px rgba(24, 160, 251, 0.938);
   border-radius: 10%;
@@ -20,9 +22,11 @@
 .navbar-container {
   padding-top: 18px;
 }
+
 .nav-right-icons {
   padding-left: 230px;
 }
+
 .nav-icon {
   padding-left: 24px;
 }
@@ -209,6 +213,7 @@
     rgba(246, 240, 196, 0) 100%
   );
 }
+
 .third__ques {
   position: relative;
   width: 295px;
@@ -396,6 +401,7 @@
 
   color: rgba(0, 0, 0, 0.8);
 }
+
 .fifth {
   position: relative;
   width: 100%;
@@ -582,6 +588,7 @@
 
   background: url(../public/icons/period.png);
 }
+
 .seventh {
   position: relative;
   width: 100%;
@@ -763,6 +770,7 @@
 
   color: #ffffff;
 }
+
 .eigth__btn__arrow {
   width: 26.91px;
   height: 24px;
@@ -916,6 +924,7 @@ input[type="text"] {
   box-sizing: border-box;
   border-radius: 17.2556px;
 }
+
 .tenth__btn__icon {
   position: absolute;
   right: 60px;
