@@ -1,5 +1,5 @@
 import "./App.css";
-import Website from "./components/Navbar";
+import Website from "./components/Website";
 function App() {
   return <Website />;
 }
