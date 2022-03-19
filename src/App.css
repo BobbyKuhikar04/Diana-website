@@ -31,7 +31,7 @@ body {
 }
 
 .nav-right-icons {
-  padding-left: 230px;
+  padding-left: 14.375rem;
 }
 
 .nav-icon {
@@ -55,7 +55,7 @@ body {
 
 .first__about {
   position: relative;
-  width: 183px;
+  width: 100%;
   height: 30px;
   padding-left: 96px;
   padding-top: 43px;
@@ -128,6 +128,7 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 33px;
+  /* identical to box height */
 
   color: #1b1b50;
 }
@@ -281,6 +282,10 @@ body {
   /* or 25px */
 
   color: #1b1b50;
+}
+
+.third__bullets {
+  margin-left: 25px;
 }
 
 /* fourth section styling */

@@ -112,7 +112,8 @@ function Website() {
           <br />
           <p>We collaborate with researchers and doctors to</p>
           <br />
-          <ul>
+
+          <ul className="third__bullets">
             <li>
               Help you get granular about your health and self-care with
               personalized insights, and
