@@ -7,8 +7,9 @@
   src: url(../public/Reptile-Medium.otf);
 }
 
+/* Navbar styling */
+
 .Navbar {
-  box-shadow: 0px 4px 14px 0px rgba(24, 160, 251, 0.938);
   border-radius: 10%;
   height: 63px;
   width: 100%;
@@ -31,8 +32,10 @@
   padding-left: 24px;
 }
 
+/* About Diana Page styling which is composed of first and second section */
+
 .starter {
-  height: 1565px;
+  height: 1585px;
   background: linear-gradient(
     180deg,
     #fff6fb 0%,
@@ -40,6 +43,8 @@
     rgba(213, 224, 255, 0) 100%
   );
 }
+
+/* first section */
 
 .first__about {
   position: relative;
@@ -91,14 +96,18 @@
   color: #000000;
 }
 
+/* horizontal line */
+
 .hrline {
   position: relative;
   width: 297px;
-  height: x;
+  margin-top: 26px;
   margin-left: 46px;
 
   border-bottom: 1px solid #000000;
 }
+
+/* second section styling */
 
 .second__philosophy {
   position: relative;
@@ -202,6 +211,9 @@
 
   color: #1b1b50;
 }
+
+/* third section styling */
+
 .third {
   position: relative;
   width: 400px;
@@ -263,6 +275,8 @@
 
   color: #1b1b50;
 }
+
+/* fourth section styling */
 
 .fourth {
   position: relative;
@@ -402,6 +416,8 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
+/* fifth section styling */
+
 .fifth {
   position: relative;
   width: 100%;
@@ -497,6 +513,8 @@
   padding-bottom: 11px;
 }
 
+/* sixth section styling */
+
 .sixth {
   position: relative;
   width: 100%;
@@ -588,6 +606,8 @@
 
   background: url(../public/icons/period.png);
 }
+
+/* seventh section styling */
 
 .seventh {
   position: relative;
@@ -689,6 +709,8 @@
   background-size: 100% 100%;
 }
 
+/* eigth section styling */
+
 .eigth {
   position: relative;
   width: 100%;
@@ -778,6 +800,8 @@
   margin-top: 7px;
 }
 
+/* nineth section styling */
+
 .nineth {
   position: relative;
   width: 100%;
@@ -825,6 +849,8 @@
 
   background: #050506;
 }
+
+/* tenth section styling which is the footer of page */
 
 .tenth__social {
   float: right;
@@ -880,6 +906,8 @@
 
   color: #ffffff;
 }
+
+/* this input is for email address input */
 
 input[type="text"] {
   position: relative;
