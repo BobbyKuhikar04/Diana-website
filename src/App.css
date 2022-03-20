@@ -467,7 +467,8 @@ body {
       rgba(220, 233, 233, 0.15) 42.17%
     ),
     url(../public/icons/pexels-karolina-grabowska-4041391.png) no-repeat 50%;
-  height: 560px;
+  height: 515px;
+  background-position: bottom;
   width: 100%;
 }
 
@@ -503,8 +504,11 @@ body {
 
 .fifth__head {
   position: relative;
-  width: 245px;
-  height: 43px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: baseline;
   padding-left: 30px;
   padding-top: 39px;
 
@@ -520,9 +524,13 @@ body {
 
 .fifth__para {
   position: relative;
-  width: 308px;
-  height: 145px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: baseline;
   padding-left: 33px;
+  padding-right: 34px;
   padding-top: 23px;
 
   font-family: "Poppins";
@@ -582,17 +590,16 @@ body {
 
 .fifth__img {
   margin: 6px;
-}
-
-.fifth__img__second {
-  margin-left: 9px;
-  padding-bottom: 11px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
 }
 
 /* sixth section styling */
 
 .sixth {
   position: relative;
+
   width: 100%;
   height: 394px;
 
@@ -601,8 +608,12 @@ body {
 
 .sixth__head {
   position: relative;
-  width: 253px;
-  height: 43px;
+  width: 100%;
+
+  display: flex;
+  box-sizing: border-box;
+  justify-content: baseline;
+
   padding-left: 30px;
   padding-top: 39px;
 
@@ -676,11 +687,16 @@ body {
 .sixth__img {
   position: relative;
   width: 100%;
-  height: 375px;
-
+  height: 370px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
   margin-top: 47px;
 
   background: url(../public/icons/period.png);
+  background-size: contain;
+
+  background-position: center;
 }
 
 /* seventh section styling */
@@ -688,7 +704,7 @@ body {
 .seventh {
   position: relative;
   width: 100%;
-  height: 421px;
+  height: 100%;
   margin-top: 330px;
 
   background: linear-gradient(
@@ -702,8 +718,11 @@ body {
 
 .seventh__head {
   position: relative;
-  width: 335px;
-  height: 86px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: baseline;
   padding-left: 27px;
   padding-top: 34px;
 
@@ -719,9 +738,13 @@ body {
 
 .seventh__para {
   position: relative;
-  width: 308px;
-  height: 145px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: baseline;
   padding-left: 30px;
+  padding-right: 37px;
   padding-top: 22px;
   font-family: "Poppins";
   font-style: normal;
@@ -734,7 +757,11 @@ body {
 }
 
 .seventh__btn {
-  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
   padding-top: 33px;
 }
 
@@ -782,7 +809,8 @@ body {
 
   background: url(../public/icons/doctor.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
 }
 
 /* eigth section styling */
@@ -790,15 +818,18 @@ body {
 .eigth {
   position: relative;
   width: 100%;
-  height: 693px;
-  margin-top: 249px;
+  height: 100%;
+
   background: #f66e6e;
 }
 
 .eigth__head {
   position: relative;
-  width: 335px;
-  height: 86px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: baseline;
   padding-left: 33px;
   padding-top: 39px;
 
@@ -815,18 +846,22 @@ body {
 .eigth__img {
   width: 387px;
   height: 290px;
-  padding-left: -12px;
 
   background: url(../public/icons/Untitled-2.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
 }
 
 .eigth__para {
   position: relative;
-  width: 308px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: baseline;
 
   padding-left: 33px;
+  padding-right: 34px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -842,8 +877,10 @@ body {
   position: relative;
   width: 287px;
   height: 43px;
+
   padding-left: 44px;
   padding-top: 33px;
+  padding-bottom: 52px;
 }
 
 .eigth__btn__modify {

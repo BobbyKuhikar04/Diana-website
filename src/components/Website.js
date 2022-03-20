@@ -142,17 +142,16 @@ function Website() {
           and doctors to simplify your self-care and get results fast. And, we
           always list our ingredients - so what you see is what you get.
         </div>
-      </div>
 
-      <div className="fourth__second">
-        <div className="fourth__btn">
-          <button className="fourth__btn__modify">
-            <span className="fourth__btn__txt">Upgrade your self-care</span>
-          </button>
+        <div className="fourth__second">
+          <div className="fourth__btn">
+            <button className="fourth__btn__modify">
+              <span className="fourth__btn__txt">Upgrade your self-care</span>
+            </button>
+          </div>
+          <div className="fourth__second__slogan">#NoNasties, we promise!</div>
         </div>
-        <div className="fourth__second__slogan">#NoNasties, we promise!</div>
       </div>
-
       {/* <!-- fifth-section --> */}
 
       <div className="fifth">
@@ -170,28 +169,12 @@ function Website() {
         </div>
         <br />
         <div className="fifth__img">
-          <img
-            src="./icons/Rectangle 194.png"
-            alt="women"
-            className="fifth__img"
-          />
-          <img
-            src="./icons/Rectangle 197.png"
-            alt="women"
-            className="fifth__img__second"
-          />
+          <img src="./icons/Rectangle 194.png" alt="women" />
+          <img src="./icons/Rectangle 197.png" alt="women" />
         </div>
         <div className="fifth__img">
-          <img
-            src="./icons/Rectangle 198.png"
-            alt="women"
-            className="fifth__img"
-          />
-          <img
-            src="./icons/Rectangle 193.png"
-            alt="women"
-            className="fifth__img__second"
-          />
+          <img src="./icons/Rectangle 198.png" alt="women" />
+          <img src="./icons/Rectangle 193.png" alt="women" />
         </div>
       </div>
 
